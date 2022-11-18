@@ -1,0 +1,15 @@
+// setting import
+
+@import'./setting.scss';
+
+// pages import
+
+@import './pages/Home.scss';
+@import './pages/Error404.scss';
+
+// components import
+
+@import './components/Navbar.scss';
+@import './components/Footer.scss';
+@import './components/Banner.scss';
+@import './components/Card.scss';

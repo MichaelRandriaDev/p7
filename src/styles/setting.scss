@@ -1,0 +1,26 @@
+// import and initialize font
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+$font: 'Montserrat', serif-serif;
+
+// initialize color 
+
+$color1: #FF6060;
+$color2: #F79696;
+
+// App style
+
+html,body{
+    height: 100%;
+    margin: 0;
+}
+
+.pageContainer {
+
+    font-family: $font;
+
+    .ContentWrap {
+        margin: 50px;
+    }
+}

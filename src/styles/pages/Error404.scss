@@ -1,0 +1,27 @@
+.ErrorMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    .ErrorTitle {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        color: $color1;
+
+        h1 {
+            font-size: 288px;
+            font-weight: 700;
+        }
+
+        h2 {
+            font-size: 36px;
+            font-weight: 500px;
+        }
+    }
+
+    .HomeLink {
+        color: $color1;
+    }
+}
