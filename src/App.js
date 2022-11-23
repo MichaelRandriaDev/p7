@@ -6,8 +6,8 @@ import Error404 from './pages/Error404';
 
 function App() {
   return (
-    <div className="pageContainer">
-      <div className='ContentWrap'>
+    <div className="page-container">
+      <div className='content-wrap'>
         <Navbar />
           <Routes>
             <Route path="/" element={<Home />}/>
